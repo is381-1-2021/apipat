@@ -84,27 +84,15 @@ class _MyCustomFormState extends State<MyCustomForm> {
             _age = int.parse(value!);
           },
         ),
-        TextFormField(
-            decoration: InputDecoration(
-              icon: Icon(Icons.star),
-              hintText: 'Student ID',
-              labelText: 'Student ID'
-            ),
-            validator: (value) {
-              if (value == null || value.isEmpty){
-                return 'Please Enter Student ID.';
-            }
-          },
-        ),
+       
         ElevatedButton(
           onPressed: (){
             if  (_formKey.currentState!.validate()){
               _formKey.currentState!.save();
-              print('$_firstName$_lastName$_age');
               
-              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                content: Text('Processing'),
-              ));
+              var response = 'Processing $_firstName$_lastName$_age';
+              
+              Navigator.pop(context,response);
             }
           },
             child: Text('Submit'),
