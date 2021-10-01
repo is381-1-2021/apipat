@@ -1,7 +1,8 @@
-name: first_app
+name: tomosstoes_app
 description: A new Flutter project.
 
-publish_to: 'none' 
+publish_to: 'none'
+
 
 version: 1.0.0+1
 
@@ -12,6 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+
   cupertino_icons: ^1.0.2
   provider: ^6.0.0
 
@@ -20,11 +22,8 @@ dev_dependencies:
     sdk: flutter
 
 
-
 flutter:
+
   uses-material-design: true
-  assets:
-    - assets/popcat1.png
-    - assets/popcat2.png
-    - assets/catt5.png
-    
+assets:
+- assets/catt5.png

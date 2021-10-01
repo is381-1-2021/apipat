@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:midterm_app/pages/my_page.dart';
+import 'package:tomosstoes_app/pages/my_page.dart';
 
 import 'models/form_model.dart';
 import 'pages/my_page.dart';

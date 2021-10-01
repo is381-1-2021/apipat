@@ -22,7 +22,7 @@ class SeventhPage extends StatelessWidget{
           children: [
             Hero(tag: 'Cat', 
             child: Image.asset(
-              'assets/popcat2.png',
+              'assets/catt5.png',
               width: 120,
             ),
           ),
