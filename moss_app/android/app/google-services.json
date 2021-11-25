@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178522004995",
+    "project_id": "myloginapp-a8238",
+    "storage_bucket": "myloginapp-a8238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178522004995:android:f855a7848fcaa4f74af836",
+        "android_client_info": {
+          "package_name": "com.example.moss_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178522004995-k3scimu8p97ern11s5j6umv7sc8bmfqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALW5myHpL4HOwE-dqMPhyAq3vw-Txw73Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178522004995-k3scimu8p97ern11s5j6umv7sc8bmfqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
