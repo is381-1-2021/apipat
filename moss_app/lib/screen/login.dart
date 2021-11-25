@@ -8,6 +8,7 @@ import 'package:moss_app/screen/Welcome.dart';
 import 'package:moss_app/screen/home.dart';
 
 class LoginScreen extends StatefulWidget {
+  static String id = 'log in';
   const LoginScreen({ Key? key }) : super(key: key);
 
   @override
@@ -39,6 +40,19 @@ class _LoginScreenState extends State<LoginScreen> {
             return Scaffold(
       appBar: AppBar(
         title: Text("login"),
+        actions: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.door_back_door,
+                      color: Colors.white,
+                      ),
+                      onPressed: (){
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
+                              return WelcomeScreen();
+                              }));
+                              },
+                    ),
+                    
+                  ],
       ),
       body: Container(
         child: Padding(

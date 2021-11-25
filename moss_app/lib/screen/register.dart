@@ -37,6 +37,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
             return Scaffold(
       appBar: AppBar(
         title: Text("สร้างบัญชีผู้ใช้"),
+        backgroundColor: Colors.deepOrange[300],
+        actions: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.door_back_door,
+                      color: Colors.white,
+                      ),
+                      onPressed: (){
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
+                              return HomeScreen();
+                              }));
+                      },
+                    ),
+                    
+                  ],
       ),
       body: Container(
         child: Padding(

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1038848298343",
+    "project_id": "mossform-9fa0f",
+    "storage_bucket": "mossform-9fa0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038848298343:android:21646721095861985bf3c2",
+        "android_client_info": {
+          "package_name": "com.example.dog_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038848298343-ulluts58f9pijasvih7a4opb5e843sda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6dcBF1JEesg8Z_pECAkjPknnwGUjdgpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038848298343-ulluts58f9pijasvih7a4opb5e843sda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

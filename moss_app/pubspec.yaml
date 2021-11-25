@@ -32,6 +32,8 @@ dependencies:
   firebase_core: ^1.10.0
   firebase_auth: ^3.2.0
   fluttertoast: ^8.0.8
+  cloud_firestore: ^3.1.0
+  
 
 
 dev_dependencies:
@@ -51,6 +53,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/cathomepage.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
